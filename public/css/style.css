@@ -14,6 +14,11 @@ header {
 	background: rgba(204, 204, 204, 0.5);
 }
 
+.container { 
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
 .map-responsive {
 	overflow:hidden;
 	padding-bottom:56.25%;
