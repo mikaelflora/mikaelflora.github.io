@@ -43,10 +43,7 @@ a:hover.nav-link, a:hover.navbar-brand {
     -moz-transform:scale(1.1,1.1);
 }
 
-.card-body a:hover {
-	transition-property: transform;
-	transition-duration: 0.2s;
-    transform:scale(1.2,1.2);
-    -webkit-transform:scale(1.2,1.2);
-    -moz-transform:scale(1.2,1.2);
+.project:hover {
+	transition: transform .25s ease;
+	transform: scale(1.10);
 }
