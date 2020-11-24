@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="public/css/style.css">
+	<title>Mikael FLORA</title>
+</head>
+<body>
+	<!-- menu -->
+	<nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
+		<a class="navbar-brand page-scroll" href="index.html">Mikael FLORA</a>
+		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarContent">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html#skill"><span class="fa fa-code"></span> Compétences</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html#portfolio"><span class="fa fa-folder-open"></span> Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html#contact"><span class="fa fa-envelope"></span> Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- content -->
+	<!-- TODO -->
+	<div class="bg-light min-vh-100">
+		<section class="container text-center">
+			<h2>Contexte du projet</h2>
+			<hr>
+			<p class="text-justify">
+				Dans le cadre de mon travail chez Aesis Conseil j'ai été amené à m'occuper de la synchronisation des usagers du SIGB (Système de Gestion de Bibliothèque) avec les usagers de la solution WebKiosk.
+			</p>
+			
+			<h2>Détails</h2>
+			<hr>
+			<p class="text-justify">
+				J'ai travaillé sur les synchronisations basées sur la récupération de fichiers CSV contenant les usagers du SIGB (total ou différentiel). J'ai choisi d'implémenter le programme en Python.
+			</p>
+			<p class="text-justify">
+				<ul class="list-group">
+					<li class="list-group-item active">Fonctionnalités</li>
+					<li class="list-group-item">le programme est périodiquement lancé via la crontab</li>
+					<li class="list-group-item">il récupère le fichier CSV sur un serveur FTP, SFTP ou un partage</li>
+					<li class="list-group-item">le fichier CSV est parsé. Chaque entrées est vérifié puis importé/mis à jour avec la solution WebKiosk (SQL et LDAP)</li>
+					<li class="list-group-item">le programme est orienté maintenance (logs, mode debug avec ou sans import)</li>
+				</ul>
+			</p>
+
+			<div class="row">
+				<div class="col">
+					<h2>Compétences utilisées</h2>
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-6 col-md-4">
+					<span style="font-size: 48px; color: #0275d8" class="fa fa-globe"></span>
+					<hr style="max-width: 64px">
+					<h3>Developpement</h3>
+					<p>Python</p>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4">
+					<span style="font-size: 48px; color: #0275d8" class="fa fa-code-fork"></span>
+					<hr style="max-width: 64px">
+					<h3>Outils</h3>
+					<p>Git</p>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4">
+					<span style="font-size: 48px; color: #0275d8" class="fa fa-cloud"></span>
+					<hr style="max-width: 64px">
+					<h3>Système et réseaux</h3>
+					<p>GNU / Linux, FTP / SFTP, MySQL, OpenLDAP</p>
+				</div>
+			</div>
+		</section>
+	</div>
+	<!-- footer -->
+	<footer class="container-fluid blockquote-footer fixed-bottom">
+		<span class="font-italic">Copyright © Tous droits réservés - Mikael FLORA - 2020</span>
+	</footer>
+	<!-- js -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
