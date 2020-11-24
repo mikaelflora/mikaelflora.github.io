@@ -34,13 +34,21 @@
 			<h2>Contexte du projet</h2>
 			<hr>
 			<p class="text-justify">
-				Dans le cadre de mon travail chez Aesis Conseil j'ai été amené à m'occuper des installations de la solution WebKiosk sur des box à destination des clients. J'ai travaillé sur l'automatisation partielle des installations.
+				Dans le cadre de mon travail chez Aesis Conseil j'ai été amené à m'occuper de la partie backend du portail captif Wifi de la solution WebKiosk.
 			</p>
 			
 			<h2>Détails</h2>
 			<hr>
 			<p class="text-justify">
-				J'ai choisi d'utiliser des scripts Bash pour automatiser l'installation et la configuration du système et des logiciels WebKiosk.
+				J'ai choisi de créer un service pour gérer les règles de routages relative a la gestion du portail captif. J'ai implémenter ce service en Bash.
+			</p>
+			<p class="text-justify">
+				<ul class="list-group">
+					<li class="list-group-item active">Fonctionnalités</li>
+					<li class="list-group-item">le programme est utilisé comme un service (status, start, stop, reload et restart)</li>
+					<li class="list-group-item">il offre des utilitaires pour gérer les utilisateurs connectés (liste des usagers, connexion d'un usager, déconnexion d'un usager)</li>
+					<li class="list-group-item">il est pensé maintenance (option de debugage, logs et commentaires des règles de routage)</li>
+				</ul>
 			</p>
 			<p>
 				Voici des exemples de libs et outils développés en Bash : 
@@ -70,7 +78,7 @@
 					<span style="font-size: 48px; color: #0275d8" class="fa fa-cloud"></span>
 					<hr style="max-width: 64px">
 					<h3>Système et réseaux</h3>
-					<p>Ubuntu</p>
+					<p>Ubuntu, iptables</p>
 				</div>
 			</div>
 		</section>
