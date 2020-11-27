@@ -41,13 +41,13 @@
 			<h2>Détails</h2>
 			<hr>
 			<p class="text-justify">
-				J'ai travaillé sur les synchronisations basées sur la récupération de fichiers CSV contenant les usagers du SIGB (total ou différentiel). J'ai choisi d'implémenter le programme en Python.
+				J'ai travaillé sur des synchronisations se basant sur la récupération de fichiers CSV contenant les usagers du SIGB (total ou différentiel). J'ai choisi d'implémenter le programme en Python.
 			</p>
 			<p class="text-justify">
 				<ul class="list-group">
 					<li class="list-group-item active">Fonctionnalités</li>
 					<li class="list-group-item">le programme est périodiquement lancé via la crontab</li>
-					<li class="list-group-item">il récupère le fichier CSV sur un serveur FTP, SFTP ou un partage</li>
+					<li class="list-group-item">il récupère le fichier CSV sur un serveur FTP, SFTP ou un montage réseau</li>
 					<li class="list-group-item">le fichier CSV est parsé. Chaque entrées est vérifié puis importé/mis à jour avec la solution WebKiosk (SQL et LDAP)</li>
 					<li class="list-group-item">le programme est orienté maintenance (logs, mode debug avec ou sans import)</li>
 				</ul>
